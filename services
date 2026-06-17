@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Services</title>
+</head>
+
+<body>
+
+<h1>Our Services</h1>
+
+<h2>AI Receptionist</h2>
+
+<p>
+Answer customer questions instantly and collect lead information
+24 hours a day.
+</p>
+
+<h2>Lead Capture</h2>
+
+<p>
+Collect names, phone numbers, addresses, and service requests.
+</p>
+
+<h2>Appointment Requests</h2>
+
+<p>
+Allow customers to request appointments even when your office is closed.
+</p>
+
+<h2>Website Design</h2>
+
+<p>
+Professional websites built specifically for local businesses.
+</p>
+
+<p>
+<a href="index.html">Home</a> |
+<a href="demo.html">Demo</a> |
+<a href="contact.html">Contact</a>
+</p>
+
+</body>
+</html>
