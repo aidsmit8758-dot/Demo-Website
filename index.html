@@ -1,33 +1,297 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
+
 <head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>AI Receptionist Solutions</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+:root{
+--bg:#030712;
+--bg2:#07111F;
+--primary:#3B82F6;
+--primary-hover:#60A5FA;
+--text:#F8FAFC;
+--muted:#94A3B8;
+}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Inter',sans-serif;
+background:
+radial-gradient(circle at top left,#0f2747 0%,transparent 40%),
+radial-gradient(circle at bottom right,#132f59 0%,transparent 40%),
+#030712;
+color:var(--text);
+line-height:1.7;
+min-height:100vh;
+}
+
+header{
+position:sticky;
+top:0;
+background:rgba(3,7,18,.85);
+backdrop-filter:blur(15px);
+border-bottom:1px solid rgba(255,255,255,.05);
+}
+
+.nav{
+max-width:1200px;
+margin:auto;
+padding:20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+flex-wrap:wrap;
+}
+
+.logo{
+font-size:1.4rem;
+font-weight:800;
+}
+
+.nav-links{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.nav-links a{
+color:white;
+text-decoration:none;
+transition:.3s;
+}
+
+.nav-links a:hover{
+color:var(--primary);
+}
+
+.hero{
+max-width:1200px;
+margin:auto;
+padding:120px 20px;
+text-align:center;
+}
+
+.hero h1{
+font-size:clamp(3rem,8vw,5rem);
+font-weight:800;
+line-height:1.05;
+margin-bottom:25px;
+}
+
+.hero p{
+font-size:1.2rem;
+max-width:750px;
+margin:auto;
+color:var(--muted);
+}
+
+.btn{
+display:inline-block;
+margin-top:35px;
+padding:16px 32px;
+background:var(--primary);
+color:white;
+text-decoration:none;
+border-radius:14px;
+font-weight:600;
+transition:.3s;
+}
+
+.btn:hover{
+background:var(--primary-hover);
+transform:translateY(-3px);
+}
+
+.container{
+max-width:1200px;
+margin:auto;
+padding:40px 20px 80px;
+}
+
+.section-title{
+text-align:center;
+font-size:2.3rem;
+margin-bottom:40px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:25px;
+}
+
+.card{
+background:rgba(15,23,42,.75);
+border:1px solid rgba(255,255,255,.08);
+backdrop-filter:blur(15px);
+padding:30px;
+border-radius:20px;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+border-color:var(--primary);
+}
+
+.card h3{
+margin-bottom:15px;
+}
+
+.card p{
+color:var(--muted);
+}
+
+.stats{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+margin-top:60px;
+}
+
+.stat{
+background:rgba(15,23,42,.75);
+padding:30px;
+border-radius:20px;
+text-align:center;
+border:1px solid rgba(255,255,255,.08);
+}
+
+.stat h2{
+font-size:2.5rem;
+color:var(--primary);
+}
+
+footer{
+margin-top:80px;
+padding:40px;
+text-align:center;
+border-top:1px solid rgba(255,255,255,.05);
+color:var(--muted);
+}
+
+</style>
+
 </head>
 
 <body>
 
-<h1>AI Receptionist Solutions</h1>
+<header>
 
-<p>
-Help your business capture more leads, answer customer questions,
-and request appointments 24/7.
-</p>
+<div class="nav">
 
-<h2>What We Do</h2>
+<div class="logo">
+AI Receptionist Solutions
+</div>
 
-<ul>
-<li>AI Receptionists</li>
-<li>Lead Capture</li>
-<li>Appointment Requests</li>
-<li>Business Websites</li>
-</ul>
-
-<p>
-<a href="services.html">Services</a> |
-<a href="demo.html">Live Demo</a> |
+<div class="nav-links">
+<a href="index.html">Home</a>
+<a href="services.html">Services</a>
+<a href="demo.html">AI Demo</a>
+<a href="booking.html">Booking</a>
+<a href="quote.html">Quotes</a>
+<a href="reviews.html">Reviews</a>
 <a href="contact.html">Contact</a>
+</div>
+
+</div>
+
+</header>
+
+<section class="hero">
+
+<h1>
+Never Miss Another Lead
+</h1>
+
+<p>
+AI Receptionists, Appointment Booking, Quote Collection, and Review Automation for Local Businesses. Capture leads, qualify prospects, and schedule appointments automatically 24/7.
 </p>
+
+<a href="demo.html" class="btn">
+Try the AI Demo
+</a>
+
+<div class="stats">
+
+<div class="stat">
+<h2>24/7</h2>
+<p>Lead Capture</p>
+</div>
+
+<div class="stat">
+<h2>100%</h2>
+<p>Response Coverage</p>
+</div>
+
+<div class="stat">
+<h2>5x</h2>
+<p>Faster Qualification</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="container">
+
+<h2 class="section-title">
+What We Do
+</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>AI Receptionists</h3>
+<p>Answer customer questions and engage visitors around the clock.</p>
+</div>
+
+<div class="card">
+<h3>Lead Capture</h3>
+<p>Automatically collect customer information and qualify prospects.</p>
+</div>
+
+<div class="card">
+<h3>Appointment Requests</h3>
+<p>Allow customers to request appointments without phone calls.</p>
+</div>
+
+<div class="card">
+<h3>Business Websites</h3>
+<p>Modern websites built to generate leads and showcase your services.</p>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>AI Receptionist Solutions</h3>
+
+<p>
+Helping businesses automate customer interactions, capture more leads, and grow with AI-powered tools.
+</p>
+
+</footer>
 
 </body>
+
 </html>
